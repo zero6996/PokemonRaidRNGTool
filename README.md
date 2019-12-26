@@ -37,9 +37,16 @@ pip install z3-solver -i https://pypi.douban.com/simple/
 
 查看日志发现错误：`z3types.Z3Exception:libz3.dll not found.`
 
-问题暂未解决。
+问题暂未解决。2019.12.25
 
+#### 2. 替代方法
 
+使用批处理文件运行python代码，见`shortcut.bat`文件，右键编辑，修改内容如下：
+
+1. 将第二行`D:`修改为你的RaidTool文件夹盘符。
+2. 将第三行`cd D:\xxxx`修改为你的RaidTool文件夹位置。
+
+保存退出，双击运行即可。
 
 
 
